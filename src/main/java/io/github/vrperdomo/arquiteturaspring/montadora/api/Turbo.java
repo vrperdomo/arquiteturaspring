@@ -11,4 +11,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.FIELD, ElementType.METHOD})
 @Qualifier("motorTurbo")
 public @interface Turbo {
+
 }
