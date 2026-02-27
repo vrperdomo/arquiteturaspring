@@ -25,7 +25,7 @@ public class TodoController {
 
     @GetMapping("{id}")
     public TodoEntity buscarTodoPorId(@PathVariable("id") Integer id){
-        return todoService.consultarTodoPorId(id);
+        return todoService.consultarTodoPorId(id); 
 
     }
 }
